@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" fill="none">
+  <!-- LIKH AI Dark Mode Mark (Cream container, Dark Navy handwriting stroke, Orange bars) -->
+  <rect width="64" height="64" rx="17" fill="#FCFAF6" />
+  
+  <!-- Dark Navy handwriting 'L' stroke -->
+  <path d="M 20 16 L 20 44 Q 20 49 25 49 L 34 49" 
+        stroke="#101D2D" 
+        stroke-width="8" 
+        stroke-linecap="round" 
+        stroke-linejoin="round" />
+        
+  <!-- 3 Orange horizontal digitizing strokes -->
+  <rect x="36" y="19" width="16" height="5.5" rx="2.75" fill="#DF6729" />
+  <rect x="33" y="29.5" width="19" height="5.5" rx="2.75" fill="#DF6729" />
+  <rect x="37" y="40" width="15" height="5.5" rx="2.75" fill="#DF6729" />
+</svg>

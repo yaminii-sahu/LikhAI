@@ -1,0 +1,98 @@
+# -----------------------------------------------------------------------------
+# LIKH AI - .gitignore
+# -----------------------------------------------------------------------------
+
+# Flutter / Dart / Pub
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+build/
+/build/
+.flutter-plugins
+.flutter-plugins-dependencies
+.metadata
+**/doc/api/
+/coverage/
+.widget_preview/
+
+# Symbolication & Obfuscation
+app.*.symbols
+app.*.map.json
+
+# Android
+android/.gradle/
+android/app/debug
+android/app/profile
+android/app/release
+android/local.properties
+android/key.properties
+*.jks
+*.keystore
+
+# iOS
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/ephemeral/
+ios/Flutter/.last_build_id
+ios/Runner/GeneratedPluginRegistrant.*
+
+# macOS / Windows / Linux Flutter ephemerals
+macos/Flutter/ephemeral/
+windows/flutter/ephemeral/
+linux/flutter/ephemeral/
+
+# Secrets, Environment & Credentials (CRITICAL - DO NOT COMMIT)
+.env
+.env.*
+!.env.example
+*.pem
+*.p12
+*.key
+credentials.json
+service-account*.json
+users.json
+backend/users.json
+
+# Python & Backend
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+ENV/
+.pytest_cache/
+backend/venv/
+backend/uploads/*
+!backend/uploads/.gitkeep
+backend/diagnostic_test.py
+backend/*.bin
+backend/*.fig
+
+# IDE & Editor files
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/*
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/settings.json
+
+# Operating System files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary & Log files
+*.log
+*.tmp
+*.temp
+*.swp
+*.bak
+.history
